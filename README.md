@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project uses machine learning classification algorithms to predict whether a customer has taken an insurance policy. It includes data preprocessing, exploratory data analysis, model training, and performance comparison.
+This academic project uses machine learning classification algorithms to predict whether a customer has taken an insurance policy. It includes data preprocessing, exploratory data analysis, model training, and performance comparison.
 
 ## Technologies Used
 
@@ -14,8 +14,6 @@ This project uses machine learning classification algorithms to predict whether 
 - Scikit-learn
 
 ## Machine Learning Algorithms
-
-The project compares six classification algorithms:
 
 1. Logistic Regression
 2. Decision Tree
@@ -30,7 +28,7 @@ The project compares six classification algorithms:
 - Check missing values and duplicate records.
 - Remove duplicate records and the `Policy_Status` column.
 - Encode categorical variables.
-- Split data into training (80%) and testing (20%) sets.
+- Split data into 80% training and 20% testing data.
 - Apply feature scaling where used by the models.
 - Train and evaluate six classification algorithms.
 - Compare accuracy, precision, recall, and F1-score.
@@ -38,20 +36,20 @@ The project compares six classification algorithms:
 
 ## Model Results
 
-| Algorithm           | Accuracy | F1-score |
-| ------------------- | -------: | -------: |
-| Logistic Regression |   78.92% |   88.22% |
-| Decision Tree       |   69.91% |   80.51% |
-| Random Forest       |   82.78% |   90.16% |
-| KNN                 |   77.85% |   87.05% |
-| SVM                 |   78.92% |   88.22% |
-| Naive Bayes         |   80.29% |   88.80% |
+| Algorithm | Accuracy | F1-score |
+|---|---:|---:|
+| Logistic Regression | 78.92% | 88.22% |
+| Decision Tree | 69.91% | 80.51% |
+| Random Forest | 82.78% | 90.16% |
+| KNN | 77.85% | 87.05% |
+| SVM | 78.92% | 88.22% |
+| Naive Bayes | 80.29% | 88.80% |
 
-Random Forest achieved the highest accuracy (82.78%) and F1-score (90.16%) among the tested models in this recorded experiment.
+Random Forest achieved the highest recorded accuracy (82.78%) and F1-score (90.16%) among the tested models.
 
 ## Dataset
 
-The code expects a CSV file named `insurance_40000_clean.csv`. Add the dataset to the repository if you have permission to share it.
+The project uses a CSV file named `insurance_40000_clean.csv`. The dataset should be available in the project directory to run the code.
 
 ## How to Run
 
@@ -59,7 +57,7 @@ The code expects a CSV file named `insurance_40000_clean.csv`. Add the dataset t
 2. Install the required Python libraries.
 3. Place the dataset in the expected project location.
 4. Run `insurance_2.py` or open `Insurance_2.ipynb` in Google Colab.
-5. Execute the cells or script to train and evaluate the models.
+5. Execute the script or notebook cells.
 
 ## Project Type
 
